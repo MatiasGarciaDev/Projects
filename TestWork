@@ -1,0 +1,33 @@
+/*
+SQLyog Community v10.1 Beta1
+MySQL - 5.5.9 
+*********************************************************************
+*/
+/*!40101 SET NAMES utf8 */;
+
+create table `` (
+	`IdProduct` int ,
+	`NAMEMONTH` varchar ,
+	`productosobrantes` Decimal 
+); 
+insert into `` (`IdProduct`, `NAMEMONTH`, `productosobrantes`) values('2','Abril','620');
+insert into `` (`IdProduct`, `NAMEMONTH`, `productosobrantes`) values('1','Abril','355');
+insert into `` (`IdProduct`, `NAMEMONTH`, `productosobrantes`) values('2','Enero','440');
+insert into `` (`IdProduct`, `NAMEMONTH`, `productosobrantes`) values('1','Enero','300');
+insert into `` (`IdProduct`, `NAMEMONTH`, `productosobrantes`) values('2','Febrero','241');
+insert into `` (`IdProduct`, `NAMEMONTH`, `productosobrantes`) values('1','Febrero','356');
+insert into `` (`IdProduct`, `NAMEMONTH`, `productosobrantes`) values('2','Marzo','1485');
+insert into `` (`IdProduct`, `NAMEMONTH`, `productosobrantes`) values('1','Marzo','2110');
+insert into `` (`IdProduct`, `NAMEMONTH`, `productosobrantes`) values('2','Mayo','330');
+insert into `` (`IdProduct`, `NAMEMONTH`, `productosobrantes`) values('1','Mayo','836');
+IdProduct	NAMEMONTH	ProdSobrantes
+2	         Abril 	              620
+1	         Abril	            355
+2	         Enero	           440
+1	         Enero	          300
+2	         Febrero           	241
+1          Febrero          	356
+2	         Marzo             	1485
+1	         Marzo             	2110
+2	         Mayo             	330
+1	         Mayo	            836
